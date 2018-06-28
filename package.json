@@ -1,0 +1,22 @@
+{
+  "name": "@dwcore/link-buffer",
+  "version": "0.1.1",
+  "description": "dWeb Link Buffering Through Node.JS' Buffer API.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
